@@ -15,7 +15,8 @@ A modern, responsive calculator web app with memory recall and smart history sup
 - ✅ **Keyboard Support** – Use your keyboard for input (numbers, operators, Enter, Backspace, Esc)
 - ✅ **Styled with Tailwind-like UI** – Sleek, glassmorphic design using pure CSS
 
-## Live Demo - https://calculator-nu-two-15.vercel.app/
+## Live Demo - 
+https://calculator-nu-two-15.vercel.app/
 
 ## 💻 Tech Stack
 
@@ -25,7 +26,7 @@ A modern, responsive calculator web app with memory recall and smart history sup
 
 ## 🧠 How to Use
 
-1. **Clone this repo**  
+ **Clone this repo**  
    ```bash
-   git clone https://github.com/your-username/advanced-calculator.git
-   cd advanced-calculator
+   git clone https://github.com/ManjotKaurGill/Calculator.git
+   cd Calculator
