@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 30px;
+  padding: 25px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+  width: 380px;
+  max-width: 90%;
+}
+
+#display {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px;
+  color: #fff;
+  margin-bottom: 25px;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.btn {
+  height: 65px;
+  border: none;
+  border-radius: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.btn:active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.operator {
+  background: rgba(255, 165, 0, 0.7);
+}
+
+.operator:hover {
+  background: rgba(255, 165, 0, 0.9);
+}
+
+.operator:active {
+  background: rgba(255, 165, 0, 1);
+}
+
+.history {
+  margin-top: 20px;
+  max-height: 140px;
+  overflow-y: auto;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  color: #fff;
+}
+
+.history h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 5px;
+}
+
+#history-list {
+  list-style: none;
+  font-size: 16px;
+}
+
+#history-list li {
+  margin-bottom: 6px;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#history-list li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
